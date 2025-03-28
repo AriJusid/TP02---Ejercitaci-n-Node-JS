@@ -1,15 +1,11 @@
-export default class Persona {
-    constructor(nombre, casado = false) { // casado tiene un valor default.
-    this.nombre = nombre;
-    this.casado = casado;
+export default class Alumno {
+    constructor(username, DNI, edad) { 
+    this.username = username
+    this.DNI = DNI
+    this.edad = edad
     }
-    getNombre() {
-    return this.nombre;
-    }
-    getCasado() {
-    return this.casado;
-    }
-    getInformacion(){
-    return `nombre:${this.nombre}, casado:${this.casado}`;
+    
+    toString(){
+    return ` Nombre:${this.username}, DNI:${this.DNI}, Edad: ${this.edad}`;
     }
     }

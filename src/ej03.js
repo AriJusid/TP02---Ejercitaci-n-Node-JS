@@ -1,0 +1,10 @@
+import Alumno from './models/alumno.js';
+let alumno1 = new Alumno("Esteban Dido" , "22888444", 20);
+let alumno2 = new Alumno("Matias Queroso", "28946255", 51);
+let alumno3 = new Alumno("Martin Martinez", "32569854", 17);
+
+console.clear();
+
+console.log(alumno1.toString());
+console.log(alumno2.toString());
+console.log(alumno3.toString());
