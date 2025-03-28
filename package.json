@@ -12,11 +12,13 @@
   },
   "license": "ISC",
   "author": "Dominguez, Jusid",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ej01": "node src/ej01.js"
+    "ej01": "node src/ej01.js",
+    "ej02": "node src/ej02.js"
+
 
   }
 
