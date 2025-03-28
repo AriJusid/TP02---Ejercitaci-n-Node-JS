@@ -1,0 +1,24 @@
+{
+  "name": "tp02-ejercitacionnode",
+  "version": "1.0.0",
+  "description": "\"# TP02---Ejercitaci-n-Node-JS\"",
+  "homepage": "https://github.com/AriJusid/TP02---Ejercitaci-n-Node-JS#readme",
+  "bugs": {
+    "url": "https://github.com/AriJusid/TP02---Ejercitaci-n-Node-JS/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AriJusid/TP02---Ejercitaci-n-Node-JS.git"
+  },
+  "license": "ISC",
+  "author": "Dominguez, Jusid",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ej01": "node src/ej01.js"
+
+  }
+
+  
+}
